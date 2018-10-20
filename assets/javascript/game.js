@@ -303,13 +303,13 @@ $('#start-button').on('click', function () {
 
 $('.answer-opt').on('click', function(){
     if (this.id == trivia.correctAnswer && clockRunning){
-        alert("Correct!");
+        // alert("Correct!");
         winCount++;
         winDisplay.text(winCount); 
         trivia.reset();
     }
     else if (this.id != trivia.correctAnswer && clockRunning){
-        alert("Oops! The correct answer was: " + document.getElementById(trivia.correctAnswer).textContent);
+        // alert("Oops! The correct answer was: " + document.getElementById(trivia.correctAnswer).textContent);
         lossCount++;
         lossDisplay.text(lossCount); 
         trivia.reset();
