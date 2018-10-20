@@ -1,0 +1,77 @@
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 56px;
+}
+
+h2{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    line-height: 150%
+}
+
+.answer-opt{
+    width: 350px;
+    margin: auto;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    background: beige;
+    border-radius: 2px;
+}
+.answer-opt:hover{
+    background: rgb(201, 201, 142);
+}
+#page-content{
+    width: 900px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 35px;
+    background: whitesmoke;
+}
+
+#header{
+    background: yellowgreen;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    border-radius: 2px;
+}
+
+#win-loss-display{
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+
+#start-button{
+    height: 45px;
+    width: 85px;
+}
+
+#start-section{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#timer-display{
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+#trivia-section{
+    background: beige;
+    text-align: center;
+    padding:25px;
+    margin-bottom: 15px;
+    border-radius: 2px;
+}
+
+#question-section{
+    padding-bottom: 15px;
+}
+
+#answer-section{
+    background: rgb(172, 156, 114);
+    text-align: center;
+    padding:25px;
+}

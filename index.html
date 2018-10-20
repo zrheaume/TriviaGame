@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Noto+Sans+JP" rel="stylesheet">
+    <!-- Link Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div id='page-content'>
+        <div id='header'>
+            <h1>THE TRIVIA GAME</h1>
+        </div>
+        <div id='win-loss-display'>
+            <span>|  WINS: </span> <span id='win-count'> 0</span><span>  |  </span><span>|  LOSSES: </span> <span id='loss-count'> 0</span><span>  |</span>
+        </div>
+        <hr>
+        <div id='start-section'>
+            <button id='start-button'>READY</button>
+        </div>
+        <div id='timer-display'>
+            <span> TIME REMAINING: </span><span id='time-remaining'>15</span>
+        </div>
+        <div id='trivia-section'>
+            <div id='question-section'>
+                <h2 id='question'></h2>
+            </div>
+        
+            <div id='answer-section'>
+                <div id='answer-opt-1' class='answer-opt'>
+                    <h3 id='answer-1' data-correct=""></h3>
+                </div>
+                <div id='answer-opt-2' class='answer-opt'>
+                    <h3 id='answer-2' data-correct=""></h3>
+                </div>
+                <div id='answer-opt-3' class='answer-opt'>
+                    <h3 id='answer-3' data-correct=""></h3>
+                </div>
+                <div id='answer-opt-4' class='answer-opt'>
+                    <h3 id='answer-4' data-correct=""></h3>
+                </div>
+            </div>
+                 
+        </div>
+    </div>
+    <script type='text/javascript' src='assets/javascript/game.js'></script>
+</body>
+
+</html>
